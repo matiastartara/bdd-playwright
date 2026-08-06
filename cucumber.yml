@@ -1,0 +1,11 @@
+default:
+  requireModule:
+    - ts-node/register
+  format:
+    - summary
+    - progress
+  paths:
+    - src/features/**/*.feature
+  require:
+    - src/steps/**/*.ts
+    - src/support/**/*.ts
